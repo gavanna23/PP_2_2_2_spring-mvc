@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 @Service
-@Component
 public class CarServiceImp implements CarService {
     private static int cars_caunt;
     private List<Car> cars;
